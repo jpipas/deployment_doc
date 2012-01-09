@@ -5,7 +5,6 @@ Ext.define('SuiteTracker.view.NavigationList', {
     store: 'Navigation',
     title: 'Navigation',
     hideHeaders: true,
-    
     initComponent: function() {
         this.columns = [{
             dataIndex: 'name',
